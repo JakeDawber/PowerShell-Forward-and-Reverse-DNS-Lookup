@@ -24,4 +24,4 @@ The PTR record maps the server's IP address (192.168.193.10) back to its fully q
 
 I verified the configuration using PowerShell's Resolve-DnsName cmdlet with the -Type PTR parameter. The query successfully returned jh-dc01.jakehomelab.test, confirming that the reverse lookup record was configured correctly.
 
-<img src="Screenshots/PTR record.png"/>
+<img src="Screenshots/PS Reverse DNS lookup.png"/>
